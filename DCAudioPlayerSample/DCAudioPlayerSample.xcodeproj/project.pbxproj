@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6092064217D6FEC700B9AA38 /* rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6092064117D6FEC700B9AA38 /* rain.mp3 */; };
+		60B7D81A17A9339F00DC9193 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B7D81917A9339F00DC9193 /* UIKit.framework */; };
+		60B7D81C17A9339F00DC9193 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B7D81B17A9339F00DC9193 /* Foundation.framework */; };
+		60B7D81E17A9339F00DC9193 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B7D81D17A9339F00DC9193 /* CoreGraphics.framework */; };
+		60B7D82417A9339F00DC9193 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60B7D82217A9339F00DC9193 /* InfoPlist.strings */; };
+		60B7D82617A9339F00DC9193 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B7D82517A9339F00DC9193 /* main.m */; };
+		60B7D82A17A9339F00DC9193 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B7D82917A9339F00DC9193 /* AppDelegate.m */; };
+		60B7D82C17A9339F00DC9193 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 60B7D82B17A9339F00DC9193 /* Default.png */; };
+		60B7D82E17A9339F00DC9193 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60B7D82D17A9339F00DC9193 /* Default@2x.png */; };
+		60B7D83017A9339F00DC9193 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60B7D82F17A9339F00DC9193 /* Default-568h@2x.png */; };
+		60B7D83317A9339F00DC9193 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B7D83117A9339F00DC9193 /* MainStoryboard.storyboard */; };
+		60B7D83617A9339F00DC9193 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B7D83517A9339F00DC9193 /* ViewController.m */; };
+		60B7D84217A933BB00DC9193 /* DCAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B7D83E17A933BB00DC9193 /* DCAudioPlayer.m */; };
+		60B7D84517A9353300DC9193 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B7D84417A9353300DC9193 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6092064117D6FEC700B9AA38 /* rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rain.mp3; sourceTree = "<group>"; };
+		60B7D81617A9339F00DC9193 /* DCAudioPlayerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCAudioPlayerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B7D81917A9339F00DC9193 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		60B7D81B17A9339F00DC9193 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		60B7D81D17A9339F00DC9193 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		60B7D82117A9339F00DC9193 /* DCAudioPlayerSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DCAudioPlayerSample-Info.plist"; sourceTree = "<group>"; };
+		60B7D82317A9339F00DC9193 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		60B7D82517A9339F00DC9193 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60B7D82717A9339F00DC9193 /* DCAudioPlayerSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DCAudioPlayerSample-Prefix.pch"; sourceTree = "<group>"; };
+		60B7D82817A9339F00DC9193 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60B7D82917A9339F00DC9193 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60B7D82B17A9339F00DC9193 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		60B7D82D17A9339F00DC9193 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		60B7D82F17A9339F00DC9193 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		60B7D83217A9339F00DC9193 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		60B7D83417A9339F00DC9193 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60B7D83517A9339F00DC9193 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60B7D83D17A933BB00DC9193 /* DCAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCAudioPlayer.h; sourceTree = "<group>"; };
+		60B7D83E17A933BB00DC9193 /* DCAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCAudioPlayer.m; sourceTree = "<group>"; };
+		60B7D84417A9353300DC9193 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60B7D81317A9339F00DC9193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B7D84517A9353300DC9193 /* AVFoundation.framework in Frameworks */,
+				60B7D81A17A9339F00DC9193 /* UIKit.framework in Frameworks */,
+				60B7D81C17A9339F00DC9193 /* Foundation.framework in Frameworks */,
+				60B7D81E17A9339F00DC9193 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60B7D80D17A9339F00DC9193 = {
+			isa = PBXGroup;
+			children = (
+				60B7D81F17A9339F00DC9193 /* DCAudioPlayerSample */,
+				60B7D81817A9339F00DC9193 /* Frameworks */,
+				60B7D81717A9339F00DC9193 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60B7D81717A9339F00DC9193 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60B7D81617A9339F00DC9193 /* DCAudioPlayerSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60B7D81817A9339F00DC9193 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60B7D84417A9353300DC9193 /* AVFoundation.framework */,
+				60B7D81917A9339F00DC9193 /* UIKit.framework */,
+				60B7D81B17A9339F00DC9193 /* Foundation.framework */,
+				60B7D81D17A9339F00DC9193 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60B7D81F17A9339F00DC9193 /* DCAudioPlayerSample */ = {
+			isa = PBXGroup;
+			children = (
+				60B7D83C17A933BB00DC9193 /* Classes */,
+				60B7D82817A9339F00DC9193 /* AppDelegate.h */,
+				60B7D82917A9339F00DC9193 /* AppDelegate.m */,
+				60B7D83417A9339F00DC9193 /* ViewController.h */,
+				60B7D83517A9339F00DC9193 /* ViewController.m */,
+				60B7D83117A9339F00DC9193 /* MainStoryboard.storyboard */,
+				60B7D83F17A933BB00DC9193 /* Resources */,
+				60B7D82017A9339F00DC9193 /* Supporting Files */,
+			);
+			path = DCAudioPlayerSample;
+			sourceTree = "<group>";
+		};
+		60B7D82017A9339F00DC9193 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60B7D82117A9339F00DC9193 /* DCAudioPlayerSample-Info.plist */,
+				60B7D82217A9339F00DC9193 /* InfoPlist.strings */,
+				60B7D82517A9339F00DC9193 /* main.m */,
+				60B7D82717A9339F00DC9193 /* DCAudioPlayerSample-Prefix.pch */,
+				60B7D82B17A9339F00DC9193 /* Default.png */,
+				60B7D82D17A9339F00DC9193 /* Default@2x.png */,
+				60B7D82F17A9339F00DC9193 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60B7D83C17A933BB00DC9193 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				60B7D83D17A933BB00DC9193 /* DCAudioPlayer.h */,
+				60B7D83E17A933BB00DC9193 /* DCAudioPlayer.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		60B7D83F17A933BB00DC9193 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60B7D84017A933BB00DC9193 /* audio */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		60B7D84017A933BB00DC9193 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				6092064117D6FEC700B9AA38 /* rain.mp3 */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60B7D81517A9339F00DC9193 /* DCAudioPlayerSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60B7D83917A9339F00DC9193 /* Build configuration list for PBXNativeTarget "DCAudioPlayerSample" */;
+			buildPhases = (
+				60B7D81217A9339F00DC9193 /* Sources */,
+				60B7D81317A9339F00DC9193 /* Frameworks */,
+				60B7D81417A9339F00DC9193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCAudioPlayerSample;
+			productName = DCAudioPlayerSample;
+			productReference = 60B7D81617A9339F00DC9193 /* DCAudioPlayerSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60B7D80E17A9339F00DC9193 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Dolice;
+			};
+			buildConfigurationList = 60B7D81117A9339F00DC9193 /* Build configuration list for PBXProject "DCAudioPlayerSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 60B7D80D17A9339F00DC9193;
+			productRefGroup = 60B7D81717A9339F00DC9193 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60B7D81517A9339F00DC9193 /* DCAudioPlayerSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60B7D81417A9339F00DC9193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B7D82417A9339F00DC9193 /* InfoPlist.strings in Resources */,
+				60B7D82C17A9339F00DC9193 /* Default.png in Resources */,
+				60B7D82E17A9339F00DC9193 /* Default@2x.png in Resources */,
+				60B7D83017A9339F00DC9193 /* Default-568h@2x.png in Resources */,
+				60B7D83317A9339F00DC9193 /* MainStoryboard.storyboard in Resources */,
+				6092064217D6FEC700B9AA38 /* rain.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60B7D81217A9339F00DC9193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B7D82617A9339F00DC9193 /* main.m in Sources */,
+				60B7D82A17A9339F00DC9193 /* AppDelegate.m in Sources */,
+				60B7D83617A9339F00DC9193 /* ViewController.m in Sources */,
+				60B7D84217A933BB00DC9193 /* DCAudioPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60B7D82217A9339F00DC9193 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60B7D82317A9339F00DC9193 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		60B7D83117A9339F00DC9193 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60B7D83217A9339F00DC9193 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60B7D83717A9339F00DC9193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60B7D83817A9339F00DC9193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60B7D83A17A9339F00DC9193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCAudioPlayerSample/DCAudioPlayerSample-Prefix.pch";
+				INFOPLIST_FILE = "DCAudioPlayerSample/DCAudioPlayerSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		60B7D83B17A9339F00DC9193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCAudioPlayerSample/DCAudioPlayerSample-Prefix.pch";
+				INFOPLIST_FILE = "DCAudioPlayerSample/DCAudioPlayerSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60B7D81117A9339F00DC9193 /* Build configuration list for PBXProject "DCAudioPlayerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B7D83717A9339F00DC9193 /* Debug */,
+				60B7D83817A9339F00DC9193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60B7D83917A9339F00DC9193 /* Build configuration list for PBXNativeTarget "DCAudioPlayerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B7D83A17A9339F00DC9193 /* Debug */,
+				60B7D83B17A9339F00DC9193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60B7D80E17A9339F00DC9193 /* Project object */;
+}
