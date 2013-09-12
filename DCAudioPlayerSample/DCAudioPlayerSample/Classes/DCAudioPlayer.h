@@ -1,14 +1,11 @@
 //
 //  DCAudioPlayer.h
-//  DCAudioPlayerSample
 //
-//  Created by 廣川政樹 on 2013/07/31.
-//  Copyright (c) 2013年 Dolice. All rights reserved.
+//  Created by Masaki Hirokawa on 2013/07/31.
+//  Copyright (c) 2013 Masaki Hirokawa. All rights reserved.
 //
 
 #import <AVFoundation/AVFoundation.h>
-
-#import "ViewController.h"
 
 #define AUDIO_VOLUME_SLIDER_WIDTH  220
 #define AUDIO_VOLUME_SLIDER_HEIGHT 0
@@ -21,9 +18,8 @@
     id<DCAudioPlayerDelegate> _ap_delegate;
 }
 
-#pragma mark property prottype
-@property (nonatomic, assign) id<DCAudioPlayerDelegate> ap_delegate;
-
+#pragma mark - property
+@property (nonatomic, assign)                 id<DCAudioPlayerDelegate> ap_delegate;
 @property AVAudioPlayer                       *audioPlayer;
 @property NSTimeInterval                      currentTime;
 @property (readonly) NSData                   *data;
@@ -36,6 +32,7 @@
 @property (readonly) NSURL                    *url;
 @property float                               volume;
 
+#pragma mark - public method
 - (id)initWithAudio:(NSString *)fileName ext:(NSString *)ext isUseDelegate:(BOOL)isUseDelegate;
 - (void)play;
 - (void)pause;
@@ -48,7 +45,7 @@
 
 @end
 
-#pragma mark delegate prottype
+#pragma mark - delegate method
 @protocol DCAudioPlayerDelegate <NSObject>
-- (void)dcAudioPlayerDidFinishPlaying;
+@optional
 @end
